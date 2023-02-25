@@ -1,27 +1,25 @@
-# Linux-IPC-Speed-Comparison
 
+############################ ASSIGNMENT INFOS #############################
 
-## How to run
+HOW TO RUN the project: 
 
 To run the project you should first launch the INSTALL shell script by running the following command on the command window:
 
-```bash
 $ source ./install.sh <path_name>
 $ ./run.sh
-```
 
 NOTE:
 If you ever close the shell you are launching the simulation from, remember to run the first command again before running the program with the following one. 
 
 
-## Summary
+SUMMARY: 
 
 This project is a collection of 4 concurrent programs plus a 'master' process dedicate manage their activation. 
 The aim of the assignment is to measure the speed when sending and receiving data between a producer and a consumer using 4 different methods of data-transferring. 
 The master process works as a UI that will let the user set some parameters regarding the test he wants to try.
 
 
-## UI interface: 
+UI interface: 
 
 -1- The user will first be asked the amount of data to transfer from the producer process to another. The maximum amout of data that can be transfered from the producer process to the consumer process is 100 MB.
 
@@ -57,4 +55,3 @@ The program will keep track of the time spent to transferring data from one proc
 	
 
 	
-
