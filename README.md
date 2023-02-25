@@ -1,5 +1,6 @@
 # Linux-IPC-Speed-Comparison
-
+ 
+ Project done in collaboration with Fabio Conti.
 
 ## How to run
 
